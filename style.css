@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+--font-title: 'Barlow', sans-serif;
+--font-family: 'Inter', sans-serif;
+}
+
+ body{
+   background-color: rgb(235, 235, 21);
+}
+
+.MENU{
+  text-align: center;
+  word-spacing: 20px;
+  margin-top: 10px;
+  
+  
+}
+
+.IMG1{
+  position: absolute;
+  margin-top: 0;
+  top: 0px;
+}
+
+.GASTRONOMIA{
+  text-align: center;
+  color: rgb(124, 3, 124);
+}
+
+.PALMEIRA{
+  position: absolute;
+  max-width: 0;
+  left: 885px;
+  top: 0px;
+  width: 640;
+  
+}
+
+.IMG2{
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  z-index: 1;
+  
+}
+
+
+.MENU2{
+  text-align: center;
+  position: absolute;
+  top: 2%;
+  right: 20%;
+  z-index: -10;
+}
+
+.RETANGULO{
+  
+  position: absolute;
+  top: 86%;
+  left: px;
+  width: 100%;
+  background-color: rgb(235, 235, 235); 
+  
+  
+}
+
+
+.IMG3{
+  position: absolute;
+  top: 350px;
+  left: 40%;
+}
+
+.GASTRONOMIA{
+  text-align: center;
+  color: rgb(124, 3, 124);
+  padding-top: 9%;
+  font-family: var(--font-title);
+}
+
+.FRASE{
+  left: 490px;
+  position: absolute;
+  top: 140px;
+  font-family: var(--font-family);
+  font-size: 15px;
+}
